@@ -8,8 +8,8 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = SECRET_KEY
 
 
-# потом не забыть переключить в False !!!!!!!!!!!!
-DEBUG = True
+#  не забыть переключить в False !!!!!!!!!!!!
+DEBUG = False
 
 ALLOWED_HOSTS = ['127.0.0.1', '92.255.79.72']
 
