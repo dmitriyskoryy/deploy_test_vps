@@ -11,7 +11,7 @@ SECRET_KEY = SECRET_KEY
 #  не забыть переключить в False !!!!!!!!!!!!
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1', '92.255.79.72']
+ALLOWED_HOSTS = ['92.255.79.72']
 
 
 
