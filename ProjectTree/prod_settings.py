@@ -24,7 +24,7 @@ ALLOWED_HOSTS = ['92.255.79.72', 'localhost']
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'cloveri_db_3',
         'USER': 'postgres',
         'PASSWORD': '1',
