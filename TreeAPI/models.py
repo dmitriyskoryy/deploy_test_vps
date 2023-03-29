@@ -32,6 +32,8 @@ class Node(models.Model):
         db_table = 'treeapi_node'
         unique_together = (('path', 'id'), ('id', 'project_id', 'item_type', 'item'),)
 
+    
+
     def __str__(self):
         return f'{self.item}: {self.id}, {self.path}'
 
