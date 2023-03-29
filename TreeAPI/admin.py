@@ -9,4 +9,3 @@ from .models import Node
 
 
 admin.site.register(Node)
-#sdfsdfsdfsdfsdf
