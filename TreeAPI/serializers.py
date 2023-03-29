@@ -2,13 +2,21 @@ from rest_framework import serializers
 from .models import Node
 
 
+
+
 class NodeSerializer(serializers.ModelSerializer):
     class Meta:
         model = Node
         fields = '__all__'
 
 
-class NewNodeSerializer(serializers.ModelSerializer):
+class NewRootNodeSerializer(serializers.ModelSerializer):
     class Meta:
         model = Node
-        fields = ('item_type', 'attributes')
+        fields = ('project_id', 'item_type', 'item', 'attributes', )
+
+
+class NewChildNodeSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Node
+        fields = ('attributes', )
